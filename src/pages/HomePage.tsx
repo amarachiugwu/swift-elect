@@ -11,7 +11,7 @@ const HomePage = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section id="home" className="w-full top-[-100px] relative">
+      <section className="w-full top-[-100px] relative">
         <div className='hidden lg:block pt-16 xl:pt-0'>
           <HeroImage />
         </div>

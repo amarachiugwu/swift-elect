@@ -22,7 +22,7 @@ const Footer = () => {
 
             <div className='flex flex-col gap-4 text-secondry-04'>
               <h6 className='text-xl font-medium text-secondry-01'>Company</h6>
-              <Link to="#honme">Home</Link>
+              <Link to="/">Home</Link>
               <Link to="/about">About</Link>
               <Link to="#whyus">Why Us</Link>
             </div>

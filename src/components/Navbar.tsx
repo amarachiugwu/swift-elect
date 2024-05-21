@@ -36,7 +36,7 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center text-neutral-09 space-x-8">
                     <Link to="/about">About Us</Link>
                     <Link to="/contact">Contact Us</Link>
-                    <Link to="/index#faq">FAQ</Link>
+                    <Link to="/#faq">FAQ</Link>
                     <Link to="/login">
                         <button className="border border-neutral-07 rounded-lg font-semibold py-2 px-6 hover:transition-colors ease-in-out duration-300 hover:bg-primary-09 hover:text-white">
                             Login
@@ -56,7 +56,7 @@ const Navbar = () => {
             <div  className={`transition-all ease-in-out duration-500 absolute flex flex-col space-y-4 font-semibold p-4 right-0 top-20 border bg-white w-60 ${mobileMenuOpen? 'translate-x-0' : 'translate-x-full'}`}>
                 <Link to="/about">About Us</Link>
                 <Link to="/contact">Contact Us</Link>
-                <Link to="/index#faq">FAQ</Link>
+                <Link to="/#faq">FAQ</Link>
                 <Link to="/login">
                     <button className="rounded-lg bg-primary-09 text-white py-2 px-6 hover:transition-colors ease-in-out duration-500 hover:bg-white hover:text-neutral-09 border border-white hover:border-neutral-07">
                         Login
