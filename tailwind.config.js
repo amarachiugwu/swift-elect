@@ -33,7 +33,7 @@ module.exports = {
           '05':'#B3B3B3',
           '06':'#999999',
           '07':'#808080',
-          '08':'#666666',
+          '08':'#667085',
           '09':'#4D4D4D',
           10:'#333333',
           11:'#262626',
@@ -78,7 +78,8 @@ module.exports = {
       },
 
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        Grotesk: ["Space Grotesk", 'sans-serif']
       }
     }
   },

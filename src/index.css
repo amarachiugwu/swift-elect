@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/**
+Poppins font
+**/
+
 /* 100 */
 @font-face{
     font-family: 'Poppins';
@@ -71,6 +75,28 @@
     font-family: 'Poppins';
     src: url('../public/font/Poppins-Black.ttf');
     font-weight: 900;
+    font-style: normal;
+}
+
+
+/**
+Space Grotesk font
+**/
+
+
+/* 400 */
+@font-face{
+    font-family:'Space Grotesk';
+    src: url('../public/font/SpaceGrotesk-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 700 */
+@font-face{
+    font-family:'Space Grotesk';
+    src: url('../public/font/SpaceGrotesk-Bold.ttf');
+    font-weight: 700;
     font-style: normal;
 }
 

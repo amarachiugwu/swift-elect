@@ -4,7 +4,8 @@ import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 
 function App() {
-  return <BrowserRouter>
+  return <div className='font-poppins'>
+    <BrowserRouter>
     <Routes>
       <Route path="/" element={<HomePage />} />
 
@@ -15,6 +16,7 @@ function App() {
     </Routes>
     
   </BrowserRouter>
+  </div>;
   
 }
 
