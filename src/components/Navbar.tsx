@@ -28,9 +28,9 @@ const Navbar = () => {
     return (
         <nav ref={nav} className="bg-white w-full z-40 fixed h-20 px-6 md:px-16">
             <div className="flex justify-between items-center py-5">
-                <div>
+                <Link to="/">
                     <Logo />
-                </div>
+                </Link>
 
                 {/* Desktop Nav links */}
                 <div className="hidden md:flex items-center text-neutral-09 space-x-8">
