@@ -100,3 +100,12 @@ Space Grotesk font
     font-style: normal;
 }
 
+
+@layer components{
+
+.slick-list, .slick-track{
+        width: 100%;
+        height: 100%;
+    }
+}
+
